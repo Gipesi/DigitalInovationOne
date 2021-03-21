@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gipes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-31 11:40:19 "/>
+        <attribute name="created" value="Z2lwZXM7REVTS1RPUC1WMUk1SEsyOzIwMjEtMDEtMzE7IjExOjI3OjM2ICI7Mjc2Mg=="/>
+        <attribute name="edited" value="Z2lwZXM7REVTS1RPUC1WMUk1SEsyOzIwMjEtMDEtMzE7IjExOjQwOjE5ICI7MjsyODY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;9x&quot; &amp; numero &amp; &quot; = &quot; &amp; 9 *numero" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

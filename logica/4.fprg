@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Manserv"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-29 03:56:02 "/>
+        <attribute name="created" value="TWFuc2VydjtERVNLVE9QLUFOVFE3Ujk7MjAyMS0wMS0yOTsiMDI6MzA6MjMgIjsyOTk5"/>
+        <attribute name="edited" value="TWFuc2VydjtERVNLVE9QLUFOVFE3Ujk7MjAyMS0wMS0yOTsiMDM6NTY6MDIgIjsyOzMxMTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NOTA1, NOTA2, NOTA3, NOTA4, MEDIA" type="Real" array="False" size=""/>
+            <input variable="NOTA1"/>
+            <input variable="NOTA2"/>
+            <input variable="NOTA3"/>
+            <input variable="NOTA4"/>
+            <assign variable="MEDIA" expression="(NOTA1+NOTA2+NOTA3+NOTA4)/4"/>
+            <output expression="MEDIA" newline="True"/>
+            <if expression="MEDIA&gt;=7">
+                <then>
+                    <output expression="&quot;PARAB&#201;NS VC FOI APROVADO!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;INFELIZMENTE VOC&#202; FOI REPROVADO !&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
